@@ -21,15 +21,12 @@ This application is designed to provide a robust platform for managing products 
   - Manage orders efficiently with timestamps.
 - **Validation:**
   - Ensures data integrity using Zod schemas and Mongoose validations.
-- **Soft Delete Mechanism:**
-  - Products can be marked as deleted without removal from the database.
 - **Responsive API:**
   - Fully RESTful endpoints for seamless interaction.
 
 ---
 
 ## Technologies Used
-- **Frontend:** React.js with Tailwind CSS for a modern and responsive design.
 - **Backend:** Node.js with Express.js for creating RESTful APIs.
 - **Database:** MongoDB with Mongoose for schema-based modeling.
 - **Validation:** Zod for request validation.
@@ -53,6 +50,7 @@ This application is designed to provide a robust platform for managing products 
 3. **Environment variables:**
    Create a `.env` file in the root directory and add the following:
    ```env
+   NODE_ENV=development
    MONGO_URI=your_mongodb_connection_string
    PORT=your_server_port
    ```
@@ -111,8 +109,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For any inquiries or feedback, reach out to:
-- **Email:** your-email@example.com
-- **GitHub:** [your-github-profile](https://github.com/your-github-profile)
+- **Email:** mahfujur797@gmail.com
+- **GitHub:** [your-github-profile](https://github.com/mahfujurr)
 
 ---
 
