@@ -1,5 +1,5 @@
 # Project Name
-***bike-store-server***
+## bike-store-server
 ### Live URL
 [Live Application](https://bike-store-server-a-2.vercel.app/)
 
