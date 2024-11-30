@@ -110,7 +110,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 For any inquiries or feedback, reach out to:
 - **Email:** mahfujur797@gmail.com
-- **GitHub:** [your-github-profile](https://github.com/mahfujurr)
+- **GitHub:** [https://github.com/mahfujurr](https://github.com/mahfujurr)
 
 ---
 
