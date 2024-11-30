@@ -41,23 +41,14 @@ const createProduct = async (req: Request, res: Response) => {
             data: result,
         });
     } catch (err: any) {
-        if (err instanceof z.ZodError) {
-            // Handle validation errors from Zod
-            return res.status(400).json({
-                message: "Validation failed",
-                success: false,
-                error: {
-                    name: "ValidationError",
-                    errors: formatZodErrors(err, req.body), // Format errors with raw input data
-                },
-            });
-        }
-
-        // Handle other unexpected errors
-        res.status(500).json({
+        // Handle unexpected errors
+        res.status(400).json({
             success: false,
-            message: err.message || "Something went wrong",
-            error: err,
+            message: "Validation failed",
+            error: {
+                name: "ValidationError",
+                errors: formatZodErrors(err, req.body), // Format errors with raw input data
+            },
         });
     }
 };
